@@ -6,9 +6,13 @@
 <head>
 	<title></title>
 	<style type="text/css">
+    .red{
+      
+    }
 		#map-container{
         height: 100%;
       }
+
       /* Optional: Makes the sample page fill the window. */
       html, body {
         height: 100%;
@@ -38,7 +42,8 @@
       ];
       let map;
       function loadMyMap() {
-        map = new google.maps.Map(document.getElementById('map-container'), {
+        map = new google.maps.Map(document.getElementById('dec10'), {
+          //I am coding
           center: {lat: 40.776993, lng: -111.925221},
           zoom: 12,
         });
